@@ -1,0 +1,14 @@
+path: ../Drive/MyDrive/Datasets/ConstructionSafety
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['boots', 'gloves', 'helmet', 'helmet on', 'no boots', 'no glove', 'no helmet', 'no vest', 'person', 'vest']
+
+roboflow:
+  workspace: individual-w6nyy
+  project: testing-roboflow-k8mml
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/individual-w6nyy/testing-roboflow-k8mml/dataset/1
